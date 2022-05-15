@@ -1,5 +1,6 @@
 rCLIFII: composite likelihood inference for individual identifications
-author: Xueli Xu, Zhihao Lyu, Ximing Xu
+transcriptomes
+================
 
 rCLIFII is an R package for analyzing animal individual identification data using the composite likelihood methods. 
 Package features include simulation, nonparametric estimation of lagged identification rate and lagged association rate, 
