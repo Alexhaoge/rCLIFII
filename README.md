@@ -1,5 +1,4 @@
 rCLIFII: composite likelihood inference for individual identifications
-transcriptomes
 ================
 
 rCLIFII is an R package for analyzing animal individual identification data using the composite likelihood methods. 
