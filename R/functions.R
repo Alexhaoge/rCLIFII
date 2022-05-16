@@ -131,6 +131,7 @@ lar_estimation_c <- function(g_m, g_n, Aij, Ai, tauij, mtau = 1000){
 #' @rdname functions
 #'
 #'
+#'
 g_np <- function(mij, np, tauij){
   unique_tau <- unique(tauij)
   num_np <- length(np)
@@ -147,9 +148,8 @@ g_np <- function(mij, np, tauij){
   g[(1:num_np)[-which(g>0)]] <- range(g[which(g>0)])[2]
   group_data = data.frame(cbind(mij, np, unique_tau, g))
 
-  # library(dplyr)
-  new_data <- group_data |> dplyr::group_by(g)
-  new = new_data |> dplyr::summarise(
+  new_data <- group_data %>% dplyr::group_by(g)
+  new = new_data %>% dplyr::summarise(
     new_mij = sum(mij),
     new_np = sum(np)
   )

@@ -6,11 +6,16 @@ Description: Functions for analysis of individual identification data in a compo
 Encoding: UTF-8
 LazyData: TRUE
 License: MIT + file LICENSE
-URL: 
+URL: https://github.com/Xuxl2020/rCLIFII/
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
-Imports: stats, dplyr, ggplot2
-Suggests: 
+Imports: 
+    stats,
+    dplyr,
+    ggplot2,
+    magrittr
+Suggests:
+    spelling, 
     foreach,
     parallel,
     doParallel,
@@ -21,3 +26,6 @@ Config/testthat/edition: 3
 Author: Xueli Xu, Zhihao Lyu, Ximing Xu
 Maintainer: Xueli Xu <1120170036@mail.nankai.edu.cn>
 VignetteBuilder: knitr
+Language: en-US
+Depends: 
+    R (>= 2.10)
