@@ -1,4 +1,4 @@
-# rCLIFII: composite likelihood inference for individual identifications
+rCLIFII: composite likelihood inference for individual identifications
 transcriptomes
 ================
 
