@@ -1,4 +1,4 @@
-rCLIFII: composite likelihood inference for individual identifications
+# rCLIFII: composite likelihood inference for individual identifications
 transcriptomes
 ================
 
@@ -13,12 +13,14 @@ Install rCLIFII from Github:
 install.packages('devtools')
 devtools::install_github('Xuxl2020/rCLIFII')
 ```
+
 or download source file and install locally
 ```r
 devtools::install_github('path/to/rCLIFII.tar.gz')
 ```
 
-Finally, to check that rCLIFII is installed correctly, run:
+To check if rCLIFII is installed correctly, run:
 ```r
 library(rCLIFII)
 ```
+
